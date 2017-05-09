@@ -11,9 +11,8 @@ public class LoggingBenchMark {
 
 	@Benchmark
 	public int testConcatenationStrings() {
-		String x = "Aplha";
-		String y = "Beta";
-		String z = "Gamma";
+		
+		String x = "", y = "", z = "";
 
 		for(int i = 0; i < 100; i++){
 			x += i; y += i; z += i;

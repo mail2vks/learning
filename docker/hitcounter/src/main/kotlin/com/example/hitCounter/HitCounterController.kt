@@ -5,12 +5,6 @@ import org.springframework.web.bind.annotation.RestController
 import org.springframework.data.redis.core.RedisTemplate
 import org.springframework.beans.factory.annotation.Autowired
 
-
-/**
- * Created by 300003275 on 23/06/17.
- */
-
-
 @RestController
 class HitCounterController {
 

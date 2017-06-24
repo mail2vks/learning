@@ -7,9 +7,6 @@ import org.springframework.context.annotation.PropertySource
 import org.springframework.data.redis.connection.jedis.JedisConnectionFactory
 import org.springframework.data.redis.core.RedisTemplate
 
-/**
- * Created by 300003275 on 23/06/17.
- */
 @Configuration
 @PropertySource("application.properties")
 class RedisConfig {
